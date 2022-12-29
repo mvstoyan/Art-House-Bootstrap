@@ -5,6 +5,8 @@ body {
 /*navbar*/
 
 .navbar {
+    width: 100%;
+    position: absolute;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
 }
@@ -13,20 +15,15 @@ body {
     border-radius: 0;
 }
 
-.all {
-    position: absolute;
-    top: 670px;
-}
-
 hr {
-    border: solid black 3px;
+    border: solid black 1px;
     width: 40%;
 }
 
 /*video background*/
 
 #myVideo {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -37,7 +34,7 @@ hr {
 
 /*h1 animation rotate with progressive delay*/
 
-h1 {
+h1, h2 {
     color: black;  
     padding: 0;  
     width: auto;
@@ -124,17 +121,13 @@ p, h4 {
     font-size: 18px;
 }
 
-.team {
-    color: white;
-}
 
-h2 {
-    
+h3 {
     font-family: 'Cormorant Garamond', serif;
     color: black;
 }
 
-.street {
+.team {
     color: white;
     font-size: 15px;
 }
@@ -145,24 +138,12 @@ h2 {
 
 @media all and (max-width: 1024px) {
 
-    #myVideo {
-        position: relative;
-    }
-
-    .all {
-        position: relative;
-        top: auto;
-    }
-
     hr {
         width: 60%;
-        border: solid 1px black;
     }
 
     h1 span {
         font-size: 40px;
-        color:#F7D1BA;
-        display: inline;
     }
 }
 
@@ -175,12 +156,10 @@ h2 {
 
     hr {
         width: 80%;
-        border: solid 1px black;
     }
 
     h1 span {
         font-size: 20px;
-        color:#F7D1BA;
     }
 
     .lead, p {
@@ -196,13 +175,34 @@ h2 {
     }
 }
 
+@media all and (max-width: 500px) {
+
+    .navbar {
+        font-size: 13px;
+    }
+
+    hr {
+        width: 75%;
+    }
+
+    h1 span {
+        font-size: 15px;
+    }
+
+    .lead, p {
+        font-size: 15px;
+    }
+
+    .nav-item {
+        font-size: 10px;
+    }
+
+    .classes {
+        width: 350px;
+    }
+}
 
 @media all and (max-width: 280px) {
-
-    .all {
-        position: relative;
-        top: auto;
-    }
 
     .navbar {
         font-size: 10px;
@@ -210,12 +210,10 @@ h2 {
 
     hr {
         width: 75%;
-        border: solid 1px black;
     }
 
     h1 span {
         font-size: 12px;
-        color:#F7D1BA;
     }
 
     .nav-item {
