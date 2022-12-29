@@ -1,5 +1,5 @@
 <h1><em><a href="https://art-house-mvstoyan.netlify.app" target="_blank">Perfomance House website</a><em></h1>
-    <img src="img/responsiveFL.png" alt="Project photo" width="auto">
+    <img src="content/responsiveArt.png" alt="Project photo" width="auto">
 <hr>
   <h3>Features:</h3>
   <p>Pperformance house website built on Bootstrap.</p>
