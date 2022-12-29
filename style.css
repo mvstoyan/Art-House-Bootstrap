@@ -154,6 +154,12 @@ h3 {
         font-size: 15px;
     }
 
+
+    .nav-link {
+        margin: 0;
+        padding: 0;
+    }
+
     hr {
         width: 80%;
     }
@@ -203,6 +209,8 @@ h3 {
 }
 
 @media all and (max-width: 280px) {
+
+   
 
     .navbar {
         font-size: 10px;
