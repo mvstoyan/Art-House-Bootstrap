@@ -2,7 +2,7 @@
     <img src="content/responsiveArt.png" alt="Project photo" width="auto">
 <hr>
   <h3>Features:</h3>
-  <p>Pperformance house website built on Bootstrap.</p>
+  <p>Pgit aerformance house website built with Bootstrap.</p>
     <ul>
       <li>Responsive, on all devices</li>
    </ul>
